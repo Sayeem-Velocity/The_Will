@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap);
+body{
+    background-image: url("bg/img1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 80%;
+    border: 20px solid #e1820653;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;  
+}
+.blog
+{
+    margin-bottom: 20px;
+}
+.date
+{
+    color: #fff;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.paragraph{
+    border-left: 5px solid #2370a5;
+    padding-left: 5px;
+}
+h2{
+    font-size: 2.0rem;
+    color: #fff;
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+p{
+    color: #fff;
+    font-weight: 800;
+    font-size: medium;
+}
+
+.social li{
+    list-style: none;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    transition: .3s;
+    margin-bottom: -50px;
+    margin-left: 500px;    
+}
+
+.social li i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-right: 900px;
+}
+.social li:hover{
+    background-color: #fff;
+    transform: translateY(-5px);
+}
+.social li:hover i{
+    color: #FF6900;
+}
+.social li a{
+    color: #c7e9e4;
+}
